@@ -4,7 +4,7 @@
 This repository contains a data analysis project focused on performing an Exploratory Data Analysis (EDA) on the UCI Machine Learning Repository dataset related to heart disease diagnosis. The project aims to understand the factors that may contribute to heart disease and create insightful visualizations using both Python and Tableau/PowerBI.
 
 ## Dataset Description
-The dataset provided by the UCI Machine Learning Repository contains 76 attributes related to heart disease diagnosis. However, all published experiments and our project focus on a subset of 14 essential attributes. The "goal" field represents the presence of heart disease in patients and is integer-valued from 0 (no presence) to 4. For our analysis, we simplify the problem by distinguishing between presence (values 1, 2, 3, 4) and absence (value 0) of heart disease.
+The dataset provided by the UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/45/heart+disease) contains 76 attributes related to heart disease diagnosis. However, all published experiments and our project focus on a subset of 14 essential attributes. The "goal" field represents the presence of heart disease in patients and is integer-valued from 0 (no presence) to 4. For our analysis, we simplify the problem by distinguishing between presence (values 1, 2, 3, 4) and absence (value 0) of heart disease.
 
 The dataset has been processed to ensure patient privacy, with names and social security numbers replaced by dummy values. The primary data file available is the Cleveland database, which is widely used in machine learning research for coronary artery disease diagnosis.
 
@@ -43,10 +43,13 @@ The 14 attributes used in this project are as follows:
 ## Project Structure
 The project is organized into the following directories and files:
 
-   /data: Contains the dataset files, including the processed Cleveland database and four unprocessed files.
-   /python: Includes Jupyter Notebook files for performing EDA using Python.
-   /tableau: Holds Tableau dashboard files.
-   /powerbi: Holds PowerBI dashboard files.
+   /data: 
+   
+   /python: https://github.com/aadyasingh55/iNeuron_HeartDiseaseDiagnosis/blob/main/HeartDiseaseDiagnosis.ipynb
+   
+   /tableau: 
+   
+   /powerbi: https://github.com/aadyasingh55/iNeuron_HeartDiseaseDiagnosis/blob/main/HeartDiseaseDiagnosis.pbix
 
 ## How to Reproduce the Analysis
 
