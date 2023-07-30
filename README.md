@@ -1,61 +1,64 @@
-# iNeuron_HeartDiseaseDiagnosis
-During my internship with iNeuron.ai, I worked independently on an end-to-end project "Heart Disease Diagnostic Analysis"
-Heart Disease Diagnosis - Exploratory Data Analysis (EDA) with Python and Visualization Dashboards in Tableau and Power BI
-## Introduction
-This Kaggle project focuses on performing Exploratory Data Analysis (EDA) on a heart disease dataset to gain insights and build visualization dashboards using Tableau and Power BI. The goal is to explore the data, identify patterns, correlations, and factors that might contribute to heart disease diagnosis.
+# Supermarket Analysis
 
-## Dataset
-The dataset used for this project contains various features related to patients' health, such as age, sex, cholesterol levels, blood pressure, etc. The target variable is the presence or absence of heart disease.
+## Introduction
+This repository contains a data analysis project focused on performing an Exploratory Data Analysis (EDA) on the UCI Machine Learning Repository dataset related to heart disease diagnosis. The project aims to understand the factors that may contribute to heart disease and create insightful visualizations using both Python and Tableau/PowerBI.
+
+## Dataset Description
+The dataset provided by the UCI Machine Learning Repository contains 76 attributes related to heart disease diagnosis. However, all published experiments and our project focus on a subset of 14 essential attributes. The "goal" field represents the presence of heart disease in patients and is integer-valued from 0 (no presence) to 4. For our analysis, we simplify the problem by distinguishing between presence (values 1, 2, 3, 4) and absence (value 0) of heart disease.
+
+The dataset has been processed to ensure patient privacy, with names and social security numbers replaced by dummy values. The primary data file available is the Cleveland database, which is widely used in machine learning research for coronary artery disease diagnosis.
+
+The 14 attributes used in this project are as follows:
+
+   Age (age): Age of the patient in years.
+   Sex (sex): Sex of the patient (1 = male; 0 = female).
+   Chest Pain Type (cp): Type of chest pain experienced by the patient.
+   Value 1: Typical angina
+   Value 2: Atypical angina
+   Value 3: Non-anginal pain
+   Value 4: Asymptomatic
+   Resting Blood Pressure (trestbps): Resting blood pressure in mm Hg on admission to the hospital.
+   Serum Cholestoral (chol): Serum cholestoral level in mg/dl.
+   Fasting Blood Sugar (fbs): Fasting blood sugar > 120 mg/dl (1 = true; 0 = false).
+   Resting Electrocardiographic Results (restecg):
+   Value 0: Normal
+   Value 1: Having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
+   Value 2: Showing probable or definite left ventricular hypertrophy by Estes' criteria.
+   Maximum Heart Rate Achieved (thalach).
+   Exercise Induced Angina (exang): Exercise-induced angina (1 = yes; 0 = no).
+   ST Depression Induced by Exercise (oldpeak): ST depression induced by exercise relative to rest.
+   The Slope of the Peak Exercise ST Segment (slope):
+   Value 1: Upsloping
+   Value 2: Flat
+   Value 3: Downsloping
+   Number of Major Vessels Colored by Flourosopy (ca): Number of major vessels (0-3) colored by flourosopy.
+   Thalassemia (thal):
+   Value 3: Normal
+   Value 6: Fixed defect
+   Value 7: Reversible defect
+   Diagnosis of Heart Disease (num): The predicted attribute for angiographic disease status.
+   Value 0: < 50% diameter narrowing
+   Value 1: > 50% diameter narrowing (in any major vessel: attributes 59 through 68 are vessels)
 
 ## Project Structure
-The project is structured as follows:
+The project is organized into the following directories and files:
 
-1. Data Collection: The dataset is obtained from a reliable source and can be accessed through Kaggle.
+   /data: Contains the dataset files, including the processed Cleveland database and four unprocessed files.
+   /python: Includes Jupyter Notebook files for performing EDA using Python.
+   /tableau: Holds Tableau dashboard files.
+   /powerbi: Holds PowerBI dashboard files.
 
-2. Data Preprocessing: Before performing EDA, the dataset is preprocessed to handle missing values, data encoding, and any other necessary data cleaning steps.
+## How to Reproduce the Analysis
 
-3. Exploratory Data Analysis (EDA): Using Python and libraries like Pandas, Matplotlib, and Seaborn, we analyze the dataset to gain insights into various health attributes and their relationship with heart disease. Some of the key visualizations include:
+1. Download the dataset from the UCI Machine Learning Repository and place it in the /data directory.
+2. Explore the EDA using Python by running the Jupyter Notebook files in the /python directory.
+3. Visualize the data using Tableau by opening the Tableau dashboard files in the /tableau directory.
+4. Visualize the data using PowerBI by opening the PowerBI dashboard files in the /powerbi directory.
 
-   3.1. Distribution of heart disease cases.
+## References
+R. Detrano, A. Jánosi, W. Steinbrunn, M. Pfisterer, J. Schmid, S. Sandhu, K. Guppy, S. Lee, V. Froelicher. (1989). "International application of a new probability algorithm for the diagnosis of coronary artery disease." Published in the American Journal of Cardiology.
 
-   3.2. Age and gender-wise distribution.
+## Dataset Citation
+Please cite the original dataset if you use it in your research:
 
-   3.3. Correlation between different features and heart disease.
-
-   3.4. Cholesterol and blood pressure trends.
-
-   3.5. Heart disease across different age groups, etc.
-
-
-4. Tableau Dashboard: The insights obtained from EDA are visualized and presented in Tableau to create interactive and visually appealing dashboards. These dashboards allow users to explore the data and gain a deeper understanding of the factors influencing heart disease diagnosis.
-
-5. Power BI Dashboard: Additionally, the project includes a Power BI dashboard with interactive visualizations that provide a different perspective on the data, allowing for comprehensive analysis and exploration.
-
-## Usage
-1. To reproduce or explore the project, follow these steps:
-
-2. Download the heart disease dataset from Kaggle and place it in the appropriate data folder.
-
-3. Run the Jupyter Notebook (Python) for EDA and data preprocessing to generate insights and clean the data for visualization.
-
-4. Utilize the cleaned dataset to create Tableau and Power BI dashboards. The data should be connected to the dashboards to visualize the results interactively.
-
-5. Modify and customize the visualizations to suit your preferences or include additional insights if needed.
-
-## Dependencies
-The project requires the following dependencies:
-
-Python (with libraries such as Pandas, Matplotlib, Seaborn, etc.)
-Tableau (latest version)
-Power BI (latest version)
-Make sure to install the necessary Python libraries using pip and download the latest versions of Tableau and Power BI from their official websites.
-
-## Conclusion
-The heart disease diagnosis project showcases the power of Exploratory Data Analysis (EDA) using Python and the creation of interactive visualization dashboards in Tableau and Power BI. By combining data analysis and visualization, we can better understand the underlying patterns and correlations, ultimately contributing to improved decision-making and insights in the medical domain.
-
-Feel free to explore the code, visualizations, and adapt the project for other datasets or further research.
-
-## Contributors
-Aadya Singh (@aadyasingh55)
-
-Please feel free to contribute to the project by raising issues, suggesting improvements, or submitting pull requests.
+Cleveland Clinic Foundation (creator), First Hungarian Reformed Church of Pasadena (donor), Hungarian Institute of Cardiology, Budapest (donor), University of California, Irvine, School of Information and Computer Science (distributor). (1988). Heart Disease Data Set. UCI Machine Learning Repository. Irvine, CA: University of California, School of Information and Computer Science.
