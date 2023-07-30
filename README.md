@@ -10,35 +10,35 @@ The dataset has been processed to ensure patient privacy, with names and social 
 
 The 14 attributes used in this project are as follows:
 
-   Age (age): Age of the patient in years.
-   Sex (sex): Sex of the patient (1 = male; 0 = female).
-   Chest Pain Type (cp): Type of chest pain experienced by the patient.
-   Value 1: Typical angina
-   Value 2: Atypical angina
-   Value 3: Non-anginal pain
-   Value 4: Asymptomatic
-   Resting Blood Pressure (trestbps): Resting blood pressure in mm Hg on admission to the hospital.
-   Serum Cholestoral (chol): Serum cholestoral level in mg/dl.
-   Fasting Blood Sugar (fbs): Fasting blood sugar > 120 mg/dl (1 = true; 0 = false).
-   Resting Electrocardiographic Results (restecg):
-   Value 0: Normal
-   Value 1: Having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
-   Value 2: Showing probable or definite left ventricular hypertrophy by Estes' criteria.
-   Maximum Heart Rate Achieved (thalach).
-   Exercise Induced Angina (exang): Exercise-induced angina (1 = yes; 0 = no).
-   ST Depression Induced by Exercise (oldpeak): ST depression induced by exercise relative to rest.
-   The Slope of the Peak Exercise ST Segment (slope):
-   Value 1: Upsloping
-   Value 2: Flat
-   Value 3: Downsloping
-   Number of Major Vessels Colored by Flourosopy (ca): Number of major vessels (0-3) colored by flourosopy.
-   Thalassemia (thal):
-   Value 3: Normal
-   Value 6: Fixed defect
-   Value 7: Reversible defect
-   Diagnosis of Heart Disease (num): The predicted attribute for angiographic disease status.
-   Value 0: < 50% diameter narrowing
-   Value 1: > 50% diameter narrowing (in any major vessel: attributes 59 through 68 are vessels)
+	   Age (age): Age of the patient in years.
+	   Sex (sex): Sex of the patient (1 = male; 0 = female).
+	   Chest Pain Type (cp): Type of chest pain experienced by the patient.
+	   Value 1: Typical angina
+	   Value 2: Atypical angina
+	   Value 3: Non-anginal pain
+	   Value 4: Asymptomatic
+	   Resting Blood Pressure (trestbps): Resting blood pressure in mm Hg on admission to the hospital.
+	   Serum Cholestoral (chol): Serum cholestoral level in mg/dl.
+	   Fasting Blood Sugar (fbs): Fasting blood sugar > 120 mg/dl (1 = true; 0 = false).
+	   Resting Electrocardiographic Results (restecg):
+	   Value 0: Normal
+	   Value 1: Having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
+	   Value 2: Showing probable or definite left ventricular hypertrophy by Estes' criteria.
+	   Maximum Heart Rate Achieved (thalach).
+	   Exercise Induced Angina (exang): Exercise-induced angina (1 = yes; 0 = no).
+	   ST Depression Induced by Exercise (oldpeak): ST depression induced by exercise relative to rest.
+	   The Slope of the Peak Exercise ST Segment (slope):
+	   Value 1: Upsloping
+	   Value 2: Flat
+	   Value 3: Downsloping
+	   Number of Major Vessels Colored by Flourosopy (ca): Number of major vessels (0-3) colored by flourosopy.
+	   Thalassemia (thal):
+	   Value 3: Normal
+	   Value 6: Fixed defect
+	   Value 7: Reversible defect
+	   Diagnosis of Heart Disease (num): The predicted attribute for angiographic disease status.
+	   Value 0: < 50% diameter narrowing
+	   Value 1: > 50% diameter narrowing (in any major vessel: attributes 59 through 68 are vessels)
 
 ## Project Structure
 The project is organized into the following directories and files:
