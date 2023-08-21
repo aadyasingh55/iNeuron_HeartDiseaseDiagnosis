@@ -1,4 +1,4 @@
-# Supermarket Analysis
+# Heart Disease Diagnosis
 
 ## Introduction
 This repository contains a data analysis project focused on performing an Exploratory Data Analysis (EDA) on the UCI Machine Learning Repository dataset related to heart disease diagnosis. The project aims to understand the factors that may contribute to heart disease and create insightful visualizations using both Python and Tableau/PowerBI.
